@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header_background"
+            android:orientation="horizontal">
+            <com.v_care.TextViews.TextView_hindi
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:text="@string/app_name"/>
+
+            <com.v_care.TextViews.TextView_hindi
+                android:id="@+id/log_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:gravity="right"
+                android:text="@string/Sign_Out"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:tabGravity="fill"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/common_plus_signin_btn_text_light_default"
+            app:tabBackground="@color/header_background"
+            app:tabIndicatorColor="@color/white"/>
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/req_vcare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header_background"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+        <com.v_care.TextViews.MyCustomTextview
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/req"
+            android:gravity="center"
+            android:textSize="18sp"
+
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:id="@+id/ask_expert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header_background"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:orientation="horizontal">
+        <com.v_care.TextViews.MyCustomTextview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ask_expert"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

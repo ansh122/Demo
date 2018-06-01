@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:visibility="gone"
+            android:src="@drawable/icn_logo"/>
+
+        <RelativeLayout
+            android:id="@+id/rel_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/video_thumb"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:src="@drawable/icn_logo"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_alignParentTop="true" />
+
+            <ImageView
+                android:id="@+id/play_icon"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:src="@drawable/icn_video"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"   />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Rihanna Love the way lie"
+        android:textColor="@color/gray_text"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <!-- Artist Name -->
+
+
+
+
+    <!--&lt;!&ndash; Rightend Arrow &ndash;&gt;
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>-->
+
+</RelativeLayout>

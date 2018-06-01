@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">V_Care</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="email_text">email</string>
+    <string name="passord_text">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_email">email or Mobile No</string>
+    ,
+    <string name="login">Login</string>
+    <string name="social">Login with social accountें</string>
+    <string name="new_user">New User?</string>
+    <string name="Signup">Registration</string>
+
+
+    //OTP
+
+    <string name="Verify">Verify</string>
+    <string name="otp_text">We have sent a verification code\nto your register number</string>
+    <string name="Resend">Resend</string>
+
+
+
+    <string name="changepassword">Change Password</string>
+    <string name="Old_Password">Old Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Notification_Ringtone">Notification Ringtone</string>
+    <string name="Choose_Language">Choose Language</string>
+    <string name="Sign_Out">Sign Out</string>
+    <string name="Save">Save</string>
+
+
+    <string name="no_record">Sorry! No Record Found..</string>
+    <string name="OK">OK</string>
+
+
+
+
+    //Registration
+
+    <string name="Full_Name">Full Name</string>
+    <string name="Mobile_No">Mobile No</string>
+    <string name="Alternate_Number">Alternate Number</string>
+    <string name="Address">Address</string>
+    <string name="City">City</string>
+    <string name="Email">Email</string>
+    <string name="Choose_Services">Choose your Services</string>
+    <string name="id_proof">Picture of Id Proof</string>
+    <string name="Register">Register</string>
+    <string name="Initiate">Initiate</string>
+    <string name="language">Select language</string>
+    <string name="profession">Profession</string>
+    <string name="gender">Gender</string>
+    <string name="male"> Male </string>
+    <string name="female"> Female </string>
+    <string name="missing_toast">Something is missing </string>
+
+    <string name="question">Questions-</string>
+    <string name="Videos">Videos</string>
+    <string name="info">Information</string>
+    <string name="ask_expert">Ask Our Expert</string>
+    <string name="req">Request Vcare</string>
+    <string name="ans">Answer</string>
+    <string name="signout">Logout</string>
+    <string name="req_text">Your request has sent to the our expert,They will contact you soon.</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="udita">Udita Yojna</string>
+</resources>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">वी केयर </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    //Login
+
+    <string name="email_text">ईमेल</string>
+    <string name="passord_text">पासवर्ड</string>
+    <string name="forgot_password">पासवर्ड याद नहीं?</string>
+    <string name="login_email">ईमेल या मोबाइल नंबर</string>
+    ,
+    <string name="login">लॉगइन</string>
+    <string name="social">सोशल अकाउंट से लॉगइन करें</string>
+    <string name="new_user">नये उपयोगकर्ता</string>
+    <string name="Signup">साइन अप</string>
+
+
+    //OTP
+
+    <string name="Verify">सत्यापित करें</string>
+    <string name="otp_text">हमने सत्यापन करने हेतु आपके रजिस्टर मोबाइल नम्बर् पर  \nकोड भेजा है।</string>
+    <string name="Resend">वापिस भेजें।</string>
+
+    //Edit Profile
+
+    <string name="changepassword">पासवर्ड बदलें।</string>
+    <string name="Old_Password">पुराना पासवर्ड।</string>
+    <string name="New_Password">नया पासवर्ड।</string>
+    <string name="Confirm_Password">पासवर्ड की पुष्टि करें।</string>
+    <string name="Choose_Language">भाषा चुनें।</string>
+    <string name="Sign_Out">साइन ऑउट</string>
+    <string name="Save">सेव</string>
+    <string name="Notification_Ringtone">अधिसूचना घंटी।</string>
+
+
+    <string name="no_record">रेकॉर्ड नहीं पाया गया।</string>
+    <string name="OK">ओके</string>
+
+
+
+
+    //Registration
+
+    <string name="Full_Name">पूरा नाम</string>
+    <string name="Mobile_No">मोबाइल नंबर</string>
+
+    <string name="Alternate_Number">वैकल्पिक नंबर</string>
+    <string name="Address">पता</string>
+    <string name="City">शहर</string>
+    <string name="Email">ईमेल</string>
+    <string name="Choose_Services">सेवाएं चुनें</string>
+    <string name="id_proof">पहचान पत्र का चित्र</string>
+    <string name="Register">पंजीयन</string>
+    <string name="Initiate">आरंभ करें</string>
+
+    <string name="language">भाषा चुनिए</string>
+    <string name="profession">प्रोफेशन</string>
+    <string name="gender">Gender</string>
+    <string name="male"> पुस्र्ष </string>
+    <string name="female"> महिला </string>
+    <string name="missing_toast">जांनकारी अधुरी है!</string>
+
+
+    <string name="question">भ्रातियां एवं प्रश्न</string>
+    <string name="Videos">वीडीयो</string>
+    <string name="info">वी-केयर गतिविधिया</string>
+    <string name="ask_expert">सम्पर्क/पुछताछ​</string>
+    <string name="ans">उत्तर</string>
+    <string name="req">सम्पर्क करे</string>
+    <string name="signout">लोग​अाउट</string>
+    <string name="req_text">आपका निवेदन हमारे विशेषज्ञ के पास पंहुचा दिया गया है! वे कुछ ही देर में आपसे सम्पर्कं करेंगे!</string>
+    <string name="dashboard">डेशबोड॔</string>
+    <string name="udita">उदिता योज़ना</string>
+</resources>

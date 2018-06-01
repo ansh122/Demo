@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.github.stfalcon/smsverifycatcher/0.2/0.2.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.github.stfalcon/smsverifycatcher/0.2/0.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.github.d-max/spots-dialog/0.4/0.4.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.github.d-max/spots-dialog/0.4/0.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/1.0.1.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/1.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/23.0.0.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/23.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/24.2.1.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/24.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/9.4.0.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/9.4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/generated/source/buildConfig/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/V_Care/app/build/generated/source/buildConfig/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/V_Care/app/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/V_Care/app/build/generated/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/src/main/main.iml" filepath="$PROJECT_DIR$/V_Care/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/generated/source/r/r.iml" filepath="$PROJECT_DIR$/V_Care/app/build/generated/source/r/r.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/build/intermediates/manifests/full/release/release.iml" filepath="$PROJECT_DIR$/V_Care/app/build/intermediates/manifests/full/release/release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V_Care/app/src/test/test.iml" filepath="$PROJECT_DIR$/V_Care/app/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

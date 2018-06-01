@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/otp_white_popup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp">
+
+
+
+            <com.v_care.TextViews.MyCustomTextview
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/otp_text"
+                android:textColor="@color/wallet_dim_foreground_inverse_disabled_holo_dark"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:gravity="center"/>
+            <com.v_care.TextViews.MyCustomTextview
+                android:id="@+id/otpmob_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12222222"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:background="@null"
+                android:maxLength="4"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+
+                android:gravity="center"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@color/header_background"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/liner_dialog"
+                android:weightSum="2"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_weight="1">
+                    <com.v_care.TextViews.MyCustomTextview
+                        android:id="@+id/verify_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Verify"
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:background="@color/green_background"
+                        android:gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="3dp">
+                    <com.v_care.TextViews.MyCustomTextview
+                        android:id="@+id/regenrate_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Resend"
+                        android:textColor="@color/wallet_dim_foreground_inverse_disabled_holo_dark"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icn_logo"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+
+
+</FrameLayout>

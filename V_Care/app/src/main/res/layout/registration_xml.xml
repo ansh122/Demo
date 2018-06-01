@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grediant_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_background">
+
+        <com.v_care.TextViews.MyCustomTextview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/Signup"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/inner"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="40dp"
+                    android:visibility="visible"
+                    android:background="@drawable/icn_logo"
+                    android:gravity="center" />
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edname_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/icn_user"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/Full_Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+
+
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edEmailId_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/icn_email"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/email_text"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edPassword_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/icn_password"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/passord_text"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white" />
+
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edconfPassword_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/icn_password"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/Confirm_Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white" />
+
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edphone_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:maxLength="10"
+                    android:drawableLeft="@drawable/icn_phone"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/Mobile_No"
+                    android:inputType="number"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edaddress_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/icn_address"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/Address"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+
+                <com.v_care.TextViews.EditText_text
+                    android:id="@+id/edprofession_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/icn_profession"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/profession"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.v_care.TextViews.MyCustomTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gender"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/white"
+                        android:background="@null"
+                        android:textSize="18sp"
+                        android:padding="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imgCheckboxInactive_male"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="20dp"
+                                android:background="@drawable/icn_chek_box"/>
+
+                            <ImageView
+                                android:id="@+id/imgCheckboxActive_male"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="20dp"
+                                android:visibility="invisible"
+                                android:background="@drawable/icn_chek" />
+
+
+                            <TextView
+                                android:id="@+id/tvAcceptId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/imgCheckboxInactive_male"
+                                android:layout_toEndOf="@+id/imgCheckboxInactive_male"
+                                android:layout_toRightOf="@+id/imgCheckboxInactive_male"
+                                android:text="@string/male"
+                                android:paddingLeft="10dp"
+                                android:textSize="18sp"
+                                android:textColor="@color/white"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgCheckboxInactive_female"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="20dp"
+                                android:textColor="@color/gray_text"
+                                android:background="@drawable/icn_chek_box"/>
+
+                            <ImageView
+                                android:id="@+id/imgCheckboxActive_female"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="20dp"
+                                android:visibility="invisible"
+                                android:background="@drawable/icn_chek" />
+
+
+                            <TextView
+                                android:id="@+id/tvAccept_female"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/imgCheckboxInactive_female"
+                                android:layout_toEndOf="@+id/imgCheckboxInactive_female"
+                                android:layout_toRightOf="@+id/imgCheckboxInactive_female"
+                                android:text="@string/female"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:paddingLeft="10dp"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_btn">
+
+        <RelativeLayout
+            android:id="@+id/text_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center">
+
+            <com.v_care.TextViews.MyCustomTextview
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Signup"
+                android:textStyle="bold"
+                android:textColor="@color/btn_txt_color"
+                android:textSize="18sp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

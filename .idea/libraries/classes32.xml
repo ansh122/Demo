@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="classes32">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/V_Care/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

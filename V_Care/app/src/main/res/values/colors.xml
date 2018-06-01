@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="header_background">#d5584e</color>
+    <color name="green_background">#85bb49</color>
+    <color name="gray_text">#9EA5A5</color>
+    <color name="screen_back">#f3eae8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#edd8d3</color>
+
+    <color name="Top_Bar_Dashboard_Background_Color">#af3930</color>
+    <color name="Questions_Background_Color">#2c98ed</color>
+    <color name="Chat_Background_Color">#f6bf26</color>
+    <color name="Videos_Background_Color">#da422e</color>
+    <color name="Information_Background_Color"> #15ac9d</color>
+    <color name="Request_Background_Color">#2f9f41</color>
+    <color name="Sign_Out_Color">#ed447f</color>
+    <color name="btn_txt_color">#a83132</color>
+
+</resources>

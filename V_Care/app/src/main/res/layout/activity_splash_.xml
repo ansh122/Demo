@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:components="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/splash_screen"
+    tools:context=".Activities.Splash_Activity">
+
+    <!--<com.doorstep.TextViews.MyCustomTextview
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOORSTEP"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>-->
+    <!--<com.doorstep.Activities.GIFView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        components:src="@drawable/gif_splash" />
+-->
+
+</RelativeLayout>
+

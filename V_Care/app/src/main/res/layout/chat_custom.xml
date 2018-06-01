@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/liner_incoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/test">
+
+
+        <com.v_care.TextViews.MyCustomTextview
+            android:id="@+id/incoming_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+        <com.v_care.TextViews.MyCustomTextview
+            android:id="@+id/incoming_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:padding="3dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/liner_outgoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/liner_incoming"
+        android:orientation="vertical"
+        android:background="@drawable/incoming_message_bg">
+
+
+        <com.v_care.TextViews.MyCustomTextview
+            android:id="@+id/outgoing_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            />
+        <com.v_care.TextViews.MyCustomTextview
+            android:id="@+id/outgoing_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:padding="3dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

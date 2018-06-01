@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "171027655242",
+    "firebase_url": "https://v-care-884c2.firebaseio.com",
+    "project_id": "v-care-884c2",
+    "storage_bucket": "v-care-884c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171027655242:android:8d50dfaa35bbadaf",
+        "android_client_info": {
+          "package_name": "com.v_care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171027655242-dndugj5h6kjs5ljgrbgqp9p1t80ij571.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANupJjjG7LNdW8vqJsdMVBvDJ4Be4lc7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
